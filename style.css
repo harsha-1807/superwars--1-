@@ -1,0 +1,37 @@
+#container{
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
+    display: flex;
+    justify-content: space-evenly;
+    /* width: 80%; */
+    /* justify-content: center; */
+    /* align-self: center; */
+  }
+  
+#heros,#villans{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    
+    gap: 20px;
+    
+    text-align: center;
+    
+
+}
+#score{
+    font-size: large;
+}
+.hero,.villan{
+    border: 2px solid #DEDEDE;
+    padding-top: 20px;
+    border-radius: 10px;
+    width: 150px;
+    
+}
+  
+  .footer {
+    margin-left : 80px;
+    font-size : 18px;
+    text-align: center;
+    
+  }
